@@ -1,0 +1,18 @@
+.heading{
+    font-size: 35px;
+    border-radius: 14px;
+}
+canvas{
+    border: 1px solid black; border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: inf;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 30px rgb(11, 217, 11); 
+    }
+    to{
+        box-shadow: 1px 1px 30px rgb(20, 176, 203); 
+    }
+}
